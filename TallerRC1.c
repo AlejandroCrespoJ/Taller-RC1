@@ -58,6 +58,19 @@ int main() {
         printf("Nota mayor: %.2f\n", mayor);
         printf("Nota menor: %.2f\n", menor);
     }
+ 
+    printf("\nRESULTADOS POR ASIGNATURA\n");
+
+    for (j = 0; j < 3; j++) {
+        suma = 0;
+        aprobados = 0;
+        reprobados = 0;
+        mayor = notas[0][j];
+        menor = notas[0][j];
+
+        for (i = 0; i < estudiantes; i++) {
+            suma = suma + notas[i][j];
+
 
 
 
