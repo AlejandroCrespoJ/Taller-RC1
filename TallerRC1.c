@@ -9,4 +9,8 @@ int main() {
     float mayor, menor;
     int aprobados, reprobados;
 
+    printf("Ingrese la cantidad de estudiantes: ");
+    scanf("%d", &estudiantes);
+
+
 }
