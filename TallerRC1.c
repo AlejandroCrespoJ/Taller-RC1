@@ -33,6 +33,22 @@ int main() {
 
     printf("\nRESULTADOS POR ESTUDIANTE\n");
 
+ for (i = 0; i < estudiantes; i++) {
+        suma = 0;
+        mayor = notas[i][0];
+        menor = notas[i][0];
+
+        for (j = 0; j < 3; j++) {
+            suma = suma + notas[i][j];
+
+            if (notas[i][j] > mayor) {
+                mayor = notas[i][j];
+            }
+
+            if (notas[i][j] < menor) {
+                menor = notas[i][j];
+
+
 
 
 
