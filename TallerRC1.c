@@ -72,6 +72,21 @@ int main() {
             suma = suma + notas[i][j];
 
 
+            if (notas[i][j] > mayor) {
+                mayor = notas[i][j];
+            }
+
+            if (notas[i][j] < menor) {
+                menor = notas[i][j];
+            }
+
+            if (notas[i][j] >= 6) {
+                aprobados = aprobados + 1;
+            } else {
+                reprobados = reprobados + 1;
+            }
+        }
+
 
 
 
