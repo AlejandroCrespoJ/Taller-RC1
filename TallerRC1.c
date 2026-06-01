@@ -48,6 +48,16 @@ int main() {
             if (notas[i][j] < menor) {
                 menor = notas[i][j];
 
+         }
+        }
+
+        promedio = suma / 3;
+
+        printf("\nEstudiante %d\n", i + 1);
+        printf("Promedio: %.2f\n", promedio);
+        printf("Nota mayor: %.2f\n", mayor);
+        printf("Nota menor: %.2f\n", menor);
+    }
 
 
 
