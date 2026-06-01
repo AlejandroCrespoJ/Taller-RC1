@@ -12,5 +12,15 @@ int main() {
     printf("Ingrese la cantidad de estudiantes: ");
     scanf("%d", &estudiantes);
 
+    while (estudiantes <= 0 || estudiantes > 50) {
+        printf("Cantidad incorrecta. Ingrese otra vez: ");
+        scanf("%d", &estudiantes);
+    }
+
+    for (i = 0; i < estudiantes; i++) {
+        printf("\nEstudiante %d\n", i + 1);
+
+
+
 
 }
