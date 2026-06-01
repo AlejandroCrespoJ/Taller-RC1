@@ -20,6 +20,20 @@ int main() {
     for (i = 0; i < estudiantes; i++) {
         printf("\nEstudiante %d\n", i + 1);
 
+    for (j = 0; j < 3; j++) {
+            printf("Ingrese la nota de la asignatura %d: ", j + 1);
+            scanf("%f", &notas[i][j]);
+
+            while (notas[i][j] < 0 || notas[i][j] > 10) {
+                printf("La nota debe estar entre 0 y 10: ");
+                scanf("%f", &notas[i][j]);
+            }
+        }
+    }
+
+    printf("\nRESULTADOS POR ESTUDIANTE\n");
+
+
 
 
 
