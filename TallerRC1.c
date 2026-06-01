@@ -87,8 +87,17 @@ int main() {
             }
         }
 
+     
+        promedio = suma / estudiantes;
 
+        printf("\nAsignatura %d\n", j + 1);
+        printf("Promedio: %.2f\n", promedio);
+        printf("Nota mayor: %.2f\n", mayor);
+        printf("Nota menor: %.2f\n", menor);
+        printf("Aprobados: %d\n", aprobados);
+        printf("Reprobados: %d\n", reprobados);
+    }
 
-
+    return 0;
 
 }
